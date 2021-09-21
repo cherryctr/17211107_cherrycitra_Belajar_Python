@@ -1,4 +1,4 @@
-#tugas Pertemua ke 2
+#tugas Pertemuan ke 2
 
 print("+=+=+=+=+=+=======  DATA MAHASISWA =======+=+=+=+=+=+")
 
