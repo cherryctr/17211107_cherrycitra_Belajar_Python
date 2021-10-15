@@ -26,7 +26,7 @@ print('4. S1')
 inputPendidikan = int(input('Masukan Pendidikan (1/2/3/4) : '))
 # inputJamKerja = input('Masukan Jumlah Jam Kerja : ')
 
-
+inputJamLembur = int(input('Jumlah Waktu Lembur :  '))
 
 
 print('================================================')
@@ -83,5 +83,8 @@ elif inputPendidikan == 4:
     
 else:
     print('ok')
-totalGajiSeluruh = gaji + totalTunjanganGajiJabatan + totalTunjanganGajiPendidikan
+
+hitungLembur = inputJamLembur * 3500
+print('honor lembur :' , hitungLembur) 
+totalGajiSeluruh = gaji + totalTunjanganGajiJabatan + totalTunjanganGajiPendidikan + hitungLembur
 print('total gaji :',round(totalGajiSeluruh))
