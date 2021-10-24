@@ -63,20 +63,20 @@ t = PrettyTable(['TOTAL BAYAR + PPN 10% = ',round(jumlahAkhir)])
 
 
 
-# NOTE: t is the prettytable table object
-# Get string to be printed and create list of elements separated by \n
-list_of_table_lines = t.get_string().split('\n')
+# # NOTE: t is the prettytable table object
+# # Get string to be printed and create list of elements separated by \n
+# list_of_table_lines = t.get_string().split('\n')
 
-# Use the first line (+---+-- ...) as horizontal rule to insert later
-horizontal_line = list_of_table_lines[0]
+# # Use the first line (+---+-- ...) as horizontal rule to insert later
+# horizontal_line = list_of_table_lines[0]
 
-# Print the table
-# Treat the last n lines as "result lines" that are seperated from the
-# rest of the table by the horizontal line
-result_lines = 1
+# # Print the table
+# # Treat the last n lines as "result lines" that are seperated from the
+# # rest of the table by the horizontal line
+# result_lines = 1
 
-print("\n".join(list_of_table_lines[:-(result_lines + 1)]))
-print(horizontal_line)
+# print("\n".join(list_of_table_lines[:-(result_lines + 1)]))
+# print(horizontal_line)
 
 
 
