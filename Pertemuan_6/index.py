@@ -1,6 +1,9 @@
 # NAMA : CHERRY CITRA CAHYANING
 # NIM : 17211107
 
+# Untuk menjalankan harus install pretytable dulu
+# Dengan Cara pip install prettytable
+
 from prettytable import PrettyTable
 
 banyakLooping = int(input('Masukan Banyak Looping :  '))
